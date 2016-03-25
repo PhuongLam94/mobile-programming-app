@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Web Service</string>
+    <string name="action_settings">Settings</string>
+    <string name="fa_envelope">&#xf0e0;</string>
+    <string name="fa_street_view">&#xf21d;</string>
+    <string name="fa_user">&#xf007;</string>
+    <string name="fa_heart">&#xf004;</string>
+    <string name="fa_refresh">&#xf021;</string>
+</resources>
