@@ -6,4 +6,11 @@
     <string name="fa_user">&#xf007;</string>
     <string name="fa_heart">&#xf004;</string>
     <string name="fa_refresh">&#xf021;</string>
+    <string name="fa_gender">&#xf228;</string>
+    <string name="fa_birthday_cake">&#xf1fd;</string>
+    <string name="fa_mobile">&#xf10b;</string>
+    <string name="fa_book">&#xf02d;</string>
+    <string name="fa_male">&#xf183;</string>
+    <string name="fa_tachometer">&#xf0e4;</string>
+
 </resources>
