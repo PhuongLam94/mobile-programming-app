@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/list_item_newsfeed">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nameNF"
+        android:textColor="#000000"
+        android:id="@+id/nameNF" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/imgNF"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/loading_spinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abcxyz"
+        android:textColor="#000000"
+        android:id="@+id/desNF"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noCommentNF"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:text="abcxyz" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/timeNF"
+        android:textColor="#000000"
+        android:layout_gravity="right"
+        android:text="12345" />
+</LinearLayout>

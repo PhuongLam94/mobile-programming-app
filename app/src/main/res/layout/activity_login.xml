@@ -23,11 +23,33 @@
         android:layout_alignEnd="@+id/passwordLogin" />
 
     <Button
+        style="@style/buttonstyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
         android:id="@+id/loginBtn"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/passwordLogin" />
+        android:layout_alignTop="@+id/signupBtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/buttonstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/signupBtn"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/passwordLogin"
+        android:layout_toEndOf="@+id/loginBtn"
+        android:layout_marginStart="26dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/logobig"
+        android:contentDescription="logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/usernameLogin" />
 
 </RelativeLayout>

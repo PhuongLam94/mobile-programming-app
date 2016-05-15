@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img"
+        android:src="@drawable/loading_spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.69" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/description"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:id="@+id/commentList"
+        android:layout_above="@+id/commentText"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/description" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/commentText"
+            android:hint="Enter your comment here"
+            android:layout_above="@+id/backPicBtn"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/postComment"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_check"
+            android:textSize="32sp"
+            android:id="@+id/postComment"
+            android:layout_below="@+id/commentList"
+            android:layout_alignStart="@+id/backPicBtn"
+            android:layout_weight="0.27" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/buttonstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/backPicBtn"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/rightBtn" />
+
+        <Button
+            style="@style/buttonstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/deletePicBtn"
+            android:layout_alignTop="@+id/backPicBtn"
+            android:layout_alignStart="@+id/description" />
+    </LinearLayout>
+
+</LinearLayout>

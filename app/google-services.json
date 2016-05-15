@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "723994261050",
+    "project_id": "take-a-date"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723994261050:android:487eb90cdfaafcb9",
+        "android_client_info": {
+          "package_name": "phuonglam.mobile.webservice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCILHRrRIxkByxN5djREWhtXNfB6SzEBDU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

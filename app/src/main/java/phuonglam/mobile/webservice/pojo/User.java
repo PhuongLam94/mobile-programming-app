@@ -1,4 +1,4 @@
-package phuonglam.mobile.webservice;
+package phuonglam.mobile.webservice.pojo;
 
 /**
  * Created by Phuo on 25/03/2016.
